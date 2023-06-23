@@ -50,6 +50,11 @@ class shurjopay_helper {
      */
     private $paymentmodes;
 
+     /**
+     * @var string public production environment
+     */
+    private $apiurl;
+
     /**
      * Initialise the shurjopay API client.
      *
@@ -98,9 +103,9 @@ class shurjopay_helper {
 
         $cusname = $user->firstname . ' ' . $user->lastname;
         $cusemail = $user->email;
-        $cuscity = $user->city;
-        $cusaddress = $user->address;
-        $cusphone = $user->phone1;
+        $cuscity = $user->city ? $user->city : 'Dhaka';
+        $cusaddress = $user->address ? $user->address : 'Dhaka';
+        $cusphone = $user->phone1 ? $user->phone1 : 999;
 
         $client_ip = $_SERVER['REMOTE_ADDR'];
         $order_id = 'sp_'.$component.'_'.$itemid;
