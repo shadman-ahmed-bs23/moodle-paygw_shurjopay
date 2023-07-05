@@ -47,7 +47,7 @@ Dashboard->Site Administration->Plugins->Payment Gateways->shurjopay settings
 ```
 ![shurjopay_options](https://github.com/shadman-ahmed-bs23/laravel-docker-sample/assets/72008371/8a80fa20-111d-4201-913b-c7edb1a1d881)
 
-![configuration](https://github.com/shadman-ahmed-bs23/laravel-docker-sample/assets/72008371/3994f7d6-0250-4a0f-8ef7-e2b6711ff212)
+![blurred config](https://github.com/shadman-ahmed-bs23/laravel-docker-sample/assets/72008371/05f049a8-1451-45bf-8954-379f1fefa5ba)
 
 - Insert the shurjopay username provided by shurjopay for sandbox
 - Insert the shurjopay password provived by shurjopay for sandbox
